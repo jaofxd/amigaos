@@ -1,0 +1,38 @@
+head{
+    text-align: center;
+    display: flex;
+}
+
+body{
+    text-align: center;
+}
+
+.logo{
+    font-style: italic;
+    color: red;
+    font: 400;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header{
+    text-align: center;
+}
+
+button{
+    color: white;
+    background-color: white;
+    border-color: white;
+
+}
+
+.paginas{
+    display: flex;
+  
+}
+
+.fonte1{
+    background-color: black;
+    height: 400px;
+    width: 300px;
+    border-radius: 20px;
+}

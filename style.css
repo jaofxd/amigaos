@@ -1,28 +1,26 @@
+body{
+    text-align: center;
+}
+
 head{
     text-align: center;
     display: flex;
 }
 
-body{
-    text-align: center;
-}
+
+
+
 
 .logo{
     font-style: italic;
-    color: red;
+    color: black;
     font: 400;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    
 }
 
 header{
     text-align: center;
-}
-
-button{
-    color: white;
-    background-color: white;
-    border-color: white;
-
 }
 
 .paginas{
@@ -31,8 +29,57 @@ button{
 }
 
 .fonte1{
-    background-color: black;
+    background-color:cornflowerblue;
     height: 400px;
     width: 300px;
     border-radius: 20px;
+    text-align: center;
+}
+.logo1{
+    width: 400px;
+    text-align: center;
+}
+
+.ligamento{
+    text-align:initial;
+    display:block;
+    background-color:white;
+    border-color: white;
+}
+
+.ligamento2{
+    text-align:initial;
+    display: block;
+    background-color: white;
+    border-color: white;
+}
+
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav{
+    display:block;
+    justify-content: center;
+    gap: 20px;
+}
+
+#botao1{
+    display:block;
+    margin-right: 20px;
+    border-color: cornflowerblue;
+    border-radius: 20px;
+    background-color:cornflowerblue;
+    height: 50px;
+        width: 100px;
+        
+}
+#botao2{
+    display:block;
+    margin-right: 20px;
+    border-color: cornflowerblue;
+    border-radius: 20px;
+    background-color: cornflowerblue;
+    width: 100px;
 }

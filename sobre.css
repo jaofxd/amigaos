@@ -1,0 +1,45 @@
+body{
+    text-align: center;
+}
+
+header{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.tudo{
+    background-color:whitesmoke;
+    border-radius: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.um{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    
+}
+.dois{
+    background-color: white;
+    border-radius: 10px;
+}
+.tres{
+    background-color: white;
+    border-radius: 10px;
+}
+.quatro{
+    background-color: white;
+    border-radius: 10px;
+}
+
+.imagens{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 900px;
+    width: 1500px;
+}

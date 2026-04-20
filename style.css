@@ -1,4 +1,5 @@
 body{
+    background-color: white;
     text-align: center;
 }
 
@@ -7,20 +8,62 @@ head{
     display: flex;
 }
 
+#a1{
+    text-decoration:dashed;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: block;
+    margin: 1px 20px;
+    text-align: center;
+    justify-content: center;
+}
 
+.gestores{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin: 20px 0;
+}
+p{
+    descoration: none;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+#p1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 1px 10px;
+    text-align: block;
+    justify-content: center;
+    width: 600px;
+    height: 350px;
+    background-color: white;
+    border: 2px solid black;
+}
 
-
-
-.logo{
-    font-style: italic;
-    color: black;
-    font: 400;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    
+#p2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 24px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 1px 10px;
+    text-align: block;
+    justify-content: center;
+    width: 600px;
+    height: 350px;
+    background-color: white;
+    border: 2px solid black;
 }
 
 header{
     text-align: center;
+    color: black;
 }
 
 .paginas{
@@ -28,30 +71,17 @@ header{
   
 }
 
-.fonte1{
-    background-color:cornflowerblue;
-    height: 400px;
-    width: 300px;
+.menu1{
     border-radius: 20px;
-    text-align: center;
+    background-color:rgb(255, 255, 255);
+    height: 300px;
+    border-color: black;
+    border-width: 2px;
+    box-shadow: 30px;
 }
-.logo1{
+.imagem1{
     width: 400px;
     text-align: center;
-}
-
-.ligamento{
-    text-align:initial;
-    display:block;
-    background-color:white;
-    border-color: white;
-}
-
-.ligamento2{
-    text-align:initial;
-    display: block;
-    background-color: white;
-    border-color: white;
 }
 
 
@@ -65,21 +95,36 @@ nav{
     gap: 20px;
 }
 
-#botao1{
-    display:block;
-    margin-right: 20px;
-    border-color: cornflowerblue;
-    border-radius: 20px;
-    background-color:cornflowerblue;
-    height: 50px;
-        width: 100px;
-        
+.menu{
+    text-decoration: none;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
 }
-#botao2{
-    display:block;
-    margin-right: 20px;
-    border-color: cornflowerblue;
-    border-radius: 20px;
-    background-color: cornflowerblue;
+
+.redes{
+    display: flex;
+    border-radius: 10px;
+    height: 20px;
+    width: 150px;
+    background-color: whitesmoke;
+    
+}
+.logo{
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     width: 100px;
+    text-align: center;
 }
+
+.container{
+    width: 20px;
+    height: 3px;
+    margin: 20px 675px;
+    text-align: center;
+    justify-content:center;
+}
+
+

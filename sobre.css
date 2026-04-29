@@ -11,13 +11,13 @@ p{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .tudo{
-    background-color:whitesmoke;
+    background-color:rgb(255, 255, 255);
     border-radius: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .um{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 254, 254);
     border-radius: 10px;
     
 }
@@ -41,7 +41,7 @@ p{
     border: 2px solid black;
     border-radius: 10px;
     height: 900px;
-    width: 1500px;
+    width: 1885px;
 }
 
 p{

@@ -1,176 +1,137 @@
-* {
-    box-sizing: border-box;
+body {    
+    background-color: red;
+    text-align: center;
+}
+#h1{
+    height: 1px;
+    
+}
+#h2{
+    margin-left: 50px;
 }
 
-body {
-    margin: 0;
-    min-height: 100vh;
+.all{
+    border-radius: 20px;
+    border-color: black;
+    box-shadow: 200px black;
+    height: 870px;
+    background-color:white;
+    
+}
+
+head {
+    text-align: center;
+    display: flex;
+}
+
+.logoprincipal {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background: linear-gradient(180deg, #eff5ff 0%, #ffffff 58%);
-    color: #10233f;
+    font-size: 30px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: block;
+    margin: 1px 20px;
     text-align: center;
+    justify-content: center;
 }
 
-.logoPrincipal {
-    font-size: clamp(2rem, 2.4vw, 3rem);
-    margin: 20px auto 10px;
-    color: #132240;
-}
-
-header {
+#a1 {
+    text-decoration: dashed;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: block;
+    margin: 1px 20px;
     text-align: center;
-    color: #10233f;
+    justify-content: center;
 }
 
 .gestores {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    align-items: stretch;
-    gap: 24px;
-    margin: 40px auto 20px;
-    max-width: 1320px;
-    padding: 0 18px;
+    gap: 5px;
+    margin: 20px 0;
 }
 
-.info-card {
-    width: min(100%, 620px);
-    padding: 28px 30px 34px;
-    border-radius: 28px;
-    background: linear-gradient(180deg, rgba(255,255,255,0.96) 0%, rgba(245,250,255,0.96) 100%);
-    border: 1px solid rgba(34, 72, 147, 0.17);
-    box-shadow: 0 28px 70px rgba(38, 68, 136, 0.12);
-    animation: entrance 10s ease-out both;
-}
-
-.info-card h1,
-.info-card h2 {
-    margin: 0 0 18px;
-    font-size: clamp(2rem, 2.3vw, 2.5rem);
-    letter-spacing: -0.04em;
-    color: #12254b;
-}
-
-.info-card p,
-.info-card li {
-    margin: 0.75rem 0;
-    color: #344361;
-    font-size: 1rem;
-    line-height: 1.75;
-}
-
-.staff-highlight {
-    text-align: left;
-    margin: 0 auto 20px;
-    padding: 18px 22px;
-    border-radius: 18px;
-    background: rgba(255,255,255,0.9);
-    border: 1px solid rgba(34, 72, 147, 0.1);
-}
-
-.staff-highlight strong {
-    display: block;
-    font-size: 1.1rem;
-    color: #0f2050;
-    margin-top: 0.35rem;
-}
-
-.staff-label {
-    display: block;
-    font-weight: 700;
-    color: #26417a;
-    margin-bottom: 0.35rem;
-}
-
-.staff-list {
-    list-style: none;
-    padding-left: 0;
-    margin: 0;
-    text-align: left;
-}
-
-.staff-list li {
-    position: relative;
-    padding-left: 20px;
-}
-
-.staff-list li::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0.5rem;
-    width: 8px;
-    height: 8px;
-    border-radius: 999px;
-    background: #2d6bff;
-}
-
-.link-row {
-    display: flex;
-    justify-content: center;
-    gap: 24px;
-    flex-wrap: wrap;
-    margin-top: 24px;
-}
-
-.menu-link {
-    display: inline-flex;
-    align-items: center;
-    gap: 10px;
-    text-decoration: none;
-    color: #0d2a71;
-    font-size: 1.1rem;
-    padding: 10px 18px;
-    border-radius: 999px;
-    transition: transform 0.3s ease, background 0.3s ease;
-}
-
-.menu-link:hover {
-    background: rgba(45, 107, 255, 0.08);
-    transform: translateY(-2px);
-}
-
-@keyframes entrance {
-    0% {
-        opacity: 0;
-        transform: translateY(50px) scale(0.96);
-        filter: blur(12px);
-    }
-    70% {
-        opacity: 0.8;
-        transform: translateY(10px) scale(0.99);
-        filter: blur(4px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0) scale(1);
-        filter: blur(0);
-    }
-}
-
-.menu1 {
-    border-radius: 20px;
-    background-color: rgba(255,255,255,0.92);
-    border: 1px solid rgba(0,0,0,0.1);
-    box-shadow: 0 16px 40px rgba(0,0,0,0.08);
-    padding: 24px;
-}
-
-h1 {
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
 }
+
+#p1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    padding: 10px 30px;
+    border-radius: 11px;
+    text-align: center;
+    margin: 1px 10px;
+    text-align: block;
+    justify-content: center;
+    width: 600px;
+    height: 350px;
+    background-color: white;
+    border: 2px solid black;
+    animation-timing-function: (10s);
+    box-shadow:inset;
+}
+
+#p2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 24px;
+    padding: 10px 30px;
+    border-radius: 11px;
+    text-align: center;
+    margin: 1px 10px;
+    text-align: block;
+    justify-content: center;
+    width: 600px;
+    height: 350px;
+    background-color: white;
+    border: 2px solid black;
+}
+
+header {
+    text-align: center;
+    color: black;
+}
+
+.paginas {
+    display: flex;
+
+}
+
+
+
+.imagem1 {
+    width: 400px;
+    text-align: block;
+    justify-content: end;
+}
+
 
 nav {
     display: block;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menu {
+    text-decoration: none;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
 }
 
 .redes {
     display: flex;
     border-radius: 10px;
-    align-items: center;
-    justify-content: center;
-    gap: 16px;
-    padding: 10px 12px;
+    height: 20px;
+    width: 150px;
     background-color: whitesmoke;
 }
 
@@ -182,9 +143,14 @@ nav {
 }
 
 .container {
-    max-width: 1060px;
-    margin: 0 auto;
-    padding: 0 16px;
+    width: 20px;
+    height: 3px;
+    margin: 20px 870px;
+    text-align: center;
+    justify-content: center;
 }
 
-
+*{
+    animation: infinite(3.0s);
+    
+}

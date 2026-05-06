@@ -1,7 +1,10 @@
-body {    
+body{     
     background-color: red;
     text-align: center;
+    animation-fill-mode: backwards;
 }
+   
+ 
 #h1{
     height: 1px;
     
@@ -16,7 +19,8 @@ body {
     box-shadow: 200px black;
     height: 870px;
     background-color:white;
-    
+
+   
 }
 
 head {
@@ -152,5 +156,19 @@ nav {
 
 *{
     animation: infinite(3.0s);
+    color: black;
     
 }
+
+.sobrei{
+    color: black;
+    border: black;
+    border-radius: 20px;
+    justify-content: center;
+    text-align: flex;
+    width: 200px;
+}
+
+.sobrei{
+    cursor:pointer;
+}   

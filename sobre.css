@@ -2,13 +2,26 @@ body{
     text-align: center;
 }
 
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
 header{
     text-align: center;
+}
+
+h1{
+    display: block;
+    margin: 1px 20px;
+    height: 43px;
 }
 
 p{
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 100px;
 }
 .tudo{
     background-color:rgb(255, 255, 255);
@@ -38,28 +51,78 @@ p{
     display: flex;
    
     background-color: white;
-    border: 2px solid black;
-    border-radius: 10px;
+    border: 10px solid black;
+    border-radius: 11px;
     height: 900px;
-    width: 1885px;
+    width: 1500px;
+    border:unset black;
 }
 
 p{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-}
-
-#img1{
-    width: 400px;
-    height: 400px;
-    border-radius: 20px;
-
     
 }
 
+    /*imagem 1*/
+
+#img1{
+    
+    border-radius: 20px 20px 20px 20px;
+    transition: .4s;
+    border: 2px solid black;
+     width: 50%;
+    transition: .4s;    
+}
+#img1:hover{
+    width: 100%;
+    transition: .4s;
+}
 #foto1{
-    width: 400px;
-    height: 400px;
+  
     border-radius: 22px ;
     border-color: black;
     border: 2px solid black;
+    width: 40%;
+    height: 17%;
+    transition: .4s;
+    background-color: black;
+
+}
+#foto1:hover{
+    width: 400px;;
+    height: 400px;
+    transition: .4s;
+    background-color: black;
+}
+
+    /*imagem 2*/
+
+#img2{
+     border-radius: 20px 20px 20px 20px;
+    transition: .4s;
+    border: 2px solid black;
+     width: 50%;
+    transition: .4s;    
+}
+
+#img2:hover{
+    width: 100%;
+    transition: .4s;
+}
+
+#foto2{
+    border-radius: 22px ;
+    border-color: black;
+    border: 2px solid black;
+    width: 30%;
+    height: 1%;
+    transition: .4s;
+    background-color: black;
+
+}
+#foto2:hover{
+   width: 400px;;
+    height: 400px;
+    transition: .4s;
+    background-color: black;
 }
